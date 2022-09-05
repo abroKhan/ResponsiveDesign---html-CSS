@@ -87,6 +87,10 @@ nav a:focus {
     color: #707070;
 }
 
+
+/* ==============
+Media Querries
+================*/
 @media (max-width: 675px) {
     .container-nav {
         flex-direction: column;
