@@ -1,19 +1,16 @@
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+
 * {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     box-sizing: border-box;
     transition: all 0.5s;
-}
-
-/*  Fonts
------
-font-family: 'Lora', serif;
-font-family: 'Ubuntu', sans-serif;
-*/
-
-body {
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 /* =================
@@ -48,6 +45,7 @@ Layout
 .container-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -55,15 +53,6 @@ header {
     padding: 2em 0;
 }
 
-@media (max-width: 675px) {
-    .container-nav {
-        flex-direction: column;
-    }
-
-    header {
-        text-align: center;
-    }
-}
 
 /* navigation */
 
@@ -99,6 +88,14 @@ nav a:focus {
 }
 
 @media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+
+    header {
+        text-align: center;
+    }
+
     nav ul {
         flex-direction: column;
     }
